@@ -4,7 +4,7 @@ description: Use when the owner asks for a product requirements document (PRD) f
 disable-model-invocation: true
 license: Apache-2.0 (see LICENSE)
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
   source: https://github.com/snarktank/ai-dev-tasks/blob/main/create-prd.md
   fork: https://github.com/tonanywhere/ai-dev-tasks
   original-author: Ryan Carson @snarktank

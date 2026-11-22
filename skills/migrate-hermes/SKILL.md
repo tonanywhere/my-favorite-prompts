@@ -4,7 +4,7 @@ description: Provide high-level guidance for migrating a Hermes Agent installati
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Migrate Hermes

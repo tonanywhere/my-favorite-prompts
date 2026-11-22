@@ -4,7 +4,7 @@ description: Use when you need to rename an opencode session - bypasses the inte
 disable-model-invocation: true 
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Renaming OpenCode Sessions

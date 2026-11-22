@@ -4,7 +4,7 @@ description: Use when auditing local Linux processes for memory or CPU cleanup c
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Process Cleanup

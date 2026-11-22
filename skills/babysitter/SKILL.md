@@ -4,7 +4,7 @@ description: Use when supervising a constrained local model that repeats tool fa
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Babysitting Small Models

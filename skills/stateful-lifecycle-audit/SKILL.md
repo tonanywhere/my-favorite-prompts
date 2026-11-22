@@ -3,7 +3,7 @@ name: stateful-lifecycle-audit
 description: Use before creating, modifying, or reviewing code with singleton state, memoization, lazy loading, caches, registries, mutexes, unload/reset paths, or long-lived external resources
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Stateful Lifecycle Audit

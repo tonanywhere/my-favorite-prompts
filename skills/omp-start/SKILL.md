@@ -4,7 +4,7 @@ description: DO NOT INVOKE. Used to start a omp(oh-my-pi) session with orchestra
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 read the plans and specs provided.

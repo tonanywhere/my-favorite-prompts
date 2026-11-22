@@ -4,7 +4,7 @@ description: "Use when writing or reviewing code and about to add a comment, whe
 argument-hint: "seek-and-destroy"
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Code Comments Standard

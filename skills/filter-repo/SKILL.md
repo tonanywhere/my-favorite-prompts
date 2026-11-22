@@ -4,7 +4,7 @@ description: Remove files or directories from Git history with git-filter-repo. 
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Remove paths from Git history

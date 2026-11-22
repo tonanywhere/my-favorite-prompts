@@ -4,7 +4,7 @@ description: Review the completed session for verified skill usage, observed ins
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Session Introspection

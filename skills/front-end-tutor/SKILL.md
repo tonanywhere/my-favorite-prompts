@@ -4,7 +4,7 @@ description: Guide a user with basic CSS knowledge who is learning Tailwind CSS 
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Front-End Tutor

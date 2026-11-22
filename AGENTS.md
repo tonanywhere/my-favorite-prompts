@@ -53,7 +53,7 @@ local-patch branches, rebase workflow, and repository-specific exceptions.
 ```
   license: MIT
   metadata:
-    author: Airton Ponce @ton-anywhere
+    author: Airton Ponce @tonanywhere
 ```
 
 ## Testing Guidelines

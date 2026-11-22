@@ -4,7 +4,7 @@ description: Move oh-my-pi (omp) sessions whose recorded working directory no lo
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Migrate omp sessions

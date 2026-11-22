@@ -4,7 +4,7 @@ description: Inspect and debug local mitmweb/mitmproxy HTTP flows, especially Op
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Mitmproxy Web

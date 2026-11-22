@@ -9,7 +9,7 @@ description: >
   user-level; a named directory means directory-scoped.
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Installing agent skills

@@ -4,7 +4,7 @@ description: Use when choosing, replacing, or reviewing the advisor model in an 
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Advisor Selection

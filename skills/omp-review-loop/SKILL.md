@@ -5,7 +5,7 @@ argument-hint: "[task-doc-path] [--peer <label>] [--max-rounds N]"
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # OMP Review Loop

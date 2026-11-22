@@ -4,7 +4,7 @@ description: Use when the user asks to audit or reclaim SSD storage on this Linu
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # SSD Storage Cleanup

@@ -3,7 +3,7 @@ name: verify-specs
 description: Use before creating, modifying, reviewing, or refactoring spec test files, RSpec or TypeScript/JavaScript (node:test, Vitest, Jest). Better Specs compliance, especially around one behavior per example, meaningful example names, describe/context structure, behavior-over-implementation assertions, `expect` syntax, or spec readability and maintainability problems.
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # Verify Specs

@@ -4,7 +4,7 @@ description: Use when creating, updating, troubleshooting, or organizing Ubuntu 
 disable-model-invocation: true
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
 ---
 
 # GNOME Script Launchers

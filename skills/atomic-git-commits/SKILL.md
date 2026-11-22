@@ -3,7 +3,7 @@ name: atomic-git-commits
 description: "Authoritative for commit-message format (Conventional Commits) and atomic-commit discipline: one purpose per commit, staging exactly the current group, reviewing staged diffs, and the small-model patch-workflow rules. Also guides inspecting (status/diff/log/show), staging, amending, rebasing without a terminal editor, and general git ops (branch mgmt, remotes, stash) as best-practice guidance, not an exhaustive spec. TRIGGER on: git, commit, status, diff, add, stage, branch, merge, push, pull, log, revert, stash, worktree, 'what changed', 'save changes', 'commit this', 'show me the diff', 'commit messages', 'good commit message', 'suggest commit', 'make a commit'. MUST be followed even when the user only says 'commit' or 'save changes', because the commit-message format and atomicity rules apply to every commit regardless of the git operation being performed."
 license: MIT
 metadata:
-  author: Airton Ponce @ton-anywhere
+  author: Airton Ponce @tonanywhere
   version: v2.0
 ---
 
