@@ -6,7 +6,7 @@ license: Apache-2.0 (see LICENSE)
 metadata:
   author: Airton Ponce @ton-anywhere
   source: https://github.com/snarktank/ai-dev-tasks/blob/main/create-prd.md
-  fork: https://github.com/ton-anywhere/ai-dev-tasks
+  fork: https://github.com/tonanywhere/ai-dev-tasks
   original-author: Ryan Carson @snarktank
   modified: Rewritten by Airton Ponce from the Apache-2.0 original (codebase audit, INVEST validation, deferred-phase and data-dependency sections).
 ---

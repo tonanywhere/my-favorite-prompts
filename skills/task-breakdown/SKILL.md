@@ -6,7 +6,7 @@ license: Apache-2.0 (see LICENSE)
 metadata:
   author: Airton Ponce @ton-anywhere
   source: https://github.com/snarktank/ai-dev-tasks/blob/main/generate-tasks.md
-  fork: https://github.com/ton-anywhere/ai-dev-tasks
+  fork: https://github.com/tonanywhere/ai-dev-tasks
   original-author: Ryan Carson @snarktank
   modified: Merged by Airton Ponce from his rewrite of the Apache-2.0 generate-tasks.md (INVEST validation, specificity rules, BLOCKED markers) and his epic-task-breakdown skill (epic layout, per-task branches, tracking conventions).
 ---
