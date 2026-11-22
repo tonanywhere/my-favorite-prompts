@@ -28,8 +28,8 @@ Sections in order:
 - [Only facts the implementer cannot find quickly: file:line, library behavior, external data details.]
 
 ## Sub-tasks
-- [ ] **Failing test: [short outcome]**: file, test names, assertions.
-- [ ] **Implementation: [short outcome]**: file, the outcome, and any public signature or value another task relies on.
+- [ ] **Implementation: [short outcome]**: file, the outcome, and any public signature or value another task relies on. Unit tests: file, test names, input → expected result.
+- [ ] **Test: [non-unit test kind and outcome]**: file or procedure, scenario names, observable result.
 - [ ] **Verification**
   - _Verify:_ [command] → [expected output]
   - _Verify:_ [command or manual check] → [expected observable result]

@@ -58,7 +58,7 @@ When the owner says to proceed anyway, record each design decision you make unde
 1. **Receive input** and apply the [input gate](#input-gate). The plan's decisions stand; don't reopen them.
 2. **Assess the current state:** read the code the work touches, and the existing patterns, components and utilities it can reuse.
 3. **Phase 1: tasks without sub-tasks.** Read [invest.md](invest.md), write each task's user story, and run INVEST on every task. Choose the [output shape](#output-shape), then write the files with every section of [task-template.md](task-template.md) except **Sub-tasks** (plus the README, for an epic).
-4. **Rundown, then stop.** Send a [rundown](#rundown) as a plain chat message and end your turn. Write no sub-tasks until the owner approves in their next message. When the owner corrects something, apply it, send a new rundown, and stop again.
+4. **Rundown, then stop.** Send a [rundown](#rundown) as a plain chat message and end your turn. Write no sub-tasks until the owner approves in their next message. Answering the rundown's open questions is not approval: apply the answers, send a new rundown, and stop again. When the owner corrects something, apply it, send a new rundown, and stop again.
 5. **Phase 2: sub-tasks.** After approval, read [sub-tasks.md](sub-tasks.md) and add the **Sub-tasks** section to each task file, ending each with its **Verification** sub-task.
 6. **Self-review**, then a [rundown](#rundown) of Phase 2 with the self-review line, and stop.
 
@@ -116,6 +116,7 @@ While planning, write only task files (and, for an epic, its README). A value th
 | Sub-tasks with code, private names, line edits or step-by-step recipes | Outcome, files and assertions; the developer decides how |
 | Breaking down a feature request or PRD with no plan behind it | Stop at the input gate and point to `/plan` |
 | A `_Verify:_` line under every sub-task | One final Verification sub-task per task |
+| A `Failing test` sub-task before each implementation | Unit tests are listed inside their implementation sub-task; only non-unit tests (integration, end-to-end, smoke, live, mutation) get a `Test` sub-task |
 | A user story or note stating unchecked behavior ("injected at session start") | Check it in code first, or leave it out |
 | Two copies of a draft kept in sync | One file; move it on approval |
 | Planning notes left in the task file ("supersedes the plan; delete it") | Keep only implementer-facing content |
