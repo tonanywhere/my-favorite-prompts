@@ -76,7 +76,7 @@ Herdr injects the caller's context into each managed pane:
 printf '%s\n' "$HERDR_WORKSPACE_ID" "$HERDR_TAB_ID" "$HERDR_PANE_ID"
 ```
 
-Prefer `--current` when a pane command should target the calling pane. An omitted `pane split` target uses the calling pane when `HERDR_PANE_ID` is available, otherwise the focused pane. Other commands may use the UI-focused pane, which can belong to the user or another client.
+Prefer `--current` when a pane command should target the calling pane. An omitted `pane split` target uses the calling pane when `HERDR_PANE_ID` is available, otherwise the focused pane. Other commands may use the UI-focused pane, which can belong to the user or another client. `tab create` is one of them and has no `--current` form: without `--workspace` the tab lands in the UI-focused workspace, even when the calling pane lives elsewhere, so always pass `--workspace "$HERDR_WORKSPACE_ID"` (or the workspace the user named).
 
 Discover live state with:
 
@@ -208,7 +208,7 @@ If a larger recent read still does not reveal the completed response, ask the ag
 - Use `--no-focus` for background work unless the user asked to switch context.
 - Use `--current`, an explicit pane ID, or a unique agent name. Do not rely on another client's focused pane.
 - Parse IDs from JSON responses. Do not derive them from sidebar order or examples.
-- Do not close workspaces, tabs, panes, or sessions you did not create unless the user explicitly asked. `workspace close --group` closes the primary workspace and its linked worktree workspaces; never add it merely to bypass `workspace_group_close_required`.
+- Do not close workspaces, tabs, panes, or sessions another client or the user created unless the user explicitly asked. Treat resources created by a process you started as yours: when that work ends, remove them recursively — the workspace with `workspace close --group`, its tabs, panes, and agents, its worktree directories, and scratch files. When the user asks to clean a test environment, include test artifacts left by earlier runs of the same test, even if another session created them. Leave real user work untouched and report what you intentionally left. `workspace close --group` closes the primary workspace and its linked worktree workspaces; never add it merely to bypass `workspace_group_close_required`.
 - Use `--trust-repository` only after the user has verified the repository. It grants per-request Git trust; it is not a routine retry for a failed worktree command.
 - Client and server versions can differ after an update. Check `herdr status` before relying on new server features. A missing method is not permission to stop or upgrade a server.
 - Never run `herdr server stop` from an active session unless the user explicitly intends to stop the server and its pane processes.
